@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>2M Transmission Monitoring</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>2M Transmission Monitoring</h1>
+        <p>Simulation de supervision audiovisuelle</p>
+    </header>
+
+    <main>
+
+        <section class="global-status">
+
+            <h2>État global</h2>
+
+            <div class="status-container">
+
+                <div class="status-card">
+                    <span id="active-count">0</span>
+                    <p>Actives</p>
+                </div>
+
+                <div class="status-card">
+                    <span id="warning-count">0</span>
+                    <p>Alertes</p>
+                </div>
+
+                <div class="status-card">
+                    <span id="offline-count">0</span>
+                    <p>Pannes</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>Transmissions</h2>
+
+            <div id="transmission-container">
+
+            </div>
+
+        </section>
+
+
+        <section class="incidents">
+
+            <h2>Journal des incidents</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Heure</th>
+                        <th>Transmission</th>
+                        <th>Événement</th>
+                        <th>Niveau</th>
+                    </tr>
+                </thead>
+
+                <tbody id="incident-log">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
