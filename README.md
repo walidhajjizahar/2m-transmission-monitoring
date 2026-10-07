@@ -10,7 +10,17 @@ L'application permet notamment de suivre l'état des transmissions, leur qualit�
 
 > ⚠️ Ce projet est une simulation pédagogique et ne représente pas l'infrastructure réelle de 2M.
 
+# 🖥️ Aperçu
+
+![Dashboard](Screenshots/dashboard.png)
+## ⚠️ Simulation d'incident
+
+![Incident](Screenshots/incident.png)
+## 🖥️ Restauration
+
+![Restored](Screenshots/restored.png)
 ---
+
 
 ## 🎯 Objectifs
 
